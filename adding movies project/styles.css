@@ -1,0 +1,125 @@
+body {
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  margin-top: 25px;
+  position: relative;
+  background-image: url(wallpaper.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.movie-info-container {
+  width: 700px;
+  height: 270px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 203, 203);
+  box-shadow: 0 0 7px;
+  margin-bottom: 30px;
+}
+.filter-container {
+  width: 700px;
+  height: 170px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 203, 203);
+  box-shadow: 0 0 7px;
+}
+.favorite-movie,
+.rating,
+.search-by-title {
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  color: red;
+}
+.search-by-title {
+  left: 25px;
+  top: 320px;
+}
+.favorite-movie {
+  left: 25px;
+  top: 25px;
+}
+.rating {
+  left: 25px;
+  top: 100px;
+}
+.first-user-input-box,
+.second-user-input-box,
+.third-user-input-box {
+  font-weight: 400;
+  position: absolute;
+  outline: none;
+}
+.first-user-input-box {
+  top: 70px;
+  left: 25px;
+  border: none;
+  width: calc(100% - 50px);
+  border-bottom: 1px solid rgb(206, 203, 203);
+}
+.second-user-input-box {
+  top: 150px;
+  left: 25px;
+  border: none;
+  width: calc(100% - 600px);
+  border-bottom: 1px solid rgb(206, 203, 203);
+}
+.third-user-input-box {
+  top: 370px;
+  left: 25px;
+  border: none;
+  width: calc(100% - 50px);
+  border-bottom: 1px solid rgb(206, 203, 203);
+}
+.search-movie-button,
+.add-movie-button {
+  padding: 10px;
+  position: absolute;
+  top: 200px;
+  left: 25px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-movie-button {
+  top: 200px;
+  left: 25px;
+}
+.search-movie-button {
+  top: 410px;
+  left: 25px;
+}
+.list-container {
+  position: absolute;
+  top: 500px;
+  left: 0px;
+  border-radius: 5px;
+  border: 1px solid rgb(206, 203, 203);
+  box-shadow: 0 0 7px;
+  visibility: hidden;
+}
+.user-input-list {
+  color: white;
+  font-weight: bold;
+}
+.remove-from-list-button {
+  margin-left: 8px;
+  background-color: transparent;
+  color: red;
+}
+.suggestions-list {
+  position: absolute;
+  top: 80%;
+  color: white;
+  font-weight: bold;
+}

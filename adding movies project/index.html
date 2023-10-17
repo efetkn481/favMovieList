@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Favorite Movies</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="content-container">
+      <div class="movie-info-container">
+        <p class="favorite-movie">Favorite Movies</p>
+        <input class="first-user-input-box" type="text" />
+        <p class="rating">Rating (0-5)</p>
+        <input
+          class="second-user-input-box"
+          type="number"
+          max="5"
+          min="0"
+          step="0.1"
+        />
+        <button class="add-movie-button">Add Movie</button>
+      </div>
+      <div class="filter-container">
+        <p class="search-by-title">Search by Title</p>
+        <input class="third-user-input-box" type="text" />
+        <div class="list-container">
+          <ul class="user-input-list">
+
+          </ul>
+        </div>
+        <div>
+          <ul class="suggestions-list">
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="object.js"></script>
+  </body>
+</html>
